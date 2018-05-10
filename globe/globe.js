@@ -144,6 +144,7 @@ DAT.Globe = function(container, opts) {
 
     renderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setSize(w, h);
+    renderer.setClearColorHex( 0xffffff, 1 );
 
     renderer.domElement.style.position = 'absolute';
 
