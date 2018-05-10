@@ -98,7 +98,7 @@ DAT.Globe = function(container, opts) {
     camera.position.z = distance;
 
     scene = new THREE.Scene();
-    scene.background = new THREE.Color( 0xffffff );
+    scene.background = new THREE.Color( 0xcccccc );
 
     var geometry = new THREE.SphereGeometry(200, 40, 30);
 
