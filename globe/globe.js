@@ -98,7 +98,7 @@ DAT.Globe = function(container, opts) {
     camera.position.z = distance;
 
     scene = new THREE.Scene();
-    scene.background = new THREE.Color( 0xcccccc );
+    //scene.background = new THREE.Color( 0xcccccc );
 
     var geometry = new THREE.SphereGeometry(200, 40, 30);
 
@@ -144,7 +144,7 @@ DAT.Globe = function(container, opts) {
 
     renderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setSize(w, h);
-    renderer.setClearColorHex( 0xffffff, 1 );
+    renderer.setClearColorHex( 0xcccccc, 1 );
 
     renderer.domElement.style.position = 'absolute';
 
